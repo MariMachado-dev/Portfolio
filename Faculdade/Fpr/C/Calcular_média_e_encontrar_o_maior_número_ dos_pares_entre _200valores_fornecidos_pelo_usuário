@@ -1,0 +1,36 @@
+#include <stdio.h>
+#define NUM 200
+
+int main()
+{
+    //Declarar variáveis
+    int i, n, maior_num = 0, soma = 0;
+    float media_pares;
+    
+    //Receber valores
+    for (i = 1; i <= NUM; i++)
+    {
+        printf("%d número: ", i);
+        scanf("%d", &n);
+        
+        //Checar o maior número
+        if (n > maior_num && i % 2 == 0)
+        {
+            maior_num = n;
+        }
+        
+        //Checar se n é par e soma-los
+        if (n % 2 == 0)
+        {
+            soma += n;
+        }
+    }
+    //Calcular média dos valores pares
+    media_pares = (float)soma / NUM;
+    
+    //Exibir maior número de ordem par e a media dos valores pares
+    printf("O maior número de ordem par é %d\n", maior_num);
+    printf("A média dos valores pares é %.1f", media_pares);
+
+    return 0;
+}

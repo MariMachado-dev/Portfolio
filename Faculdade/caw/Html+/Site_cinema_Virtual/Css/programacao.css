@@ -1,0 +1,308 @@
+/* ===== Corpo da página ===== */
+body {
+  background-color: #0d0f27;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ===== Cabeçalho ===== */
+/* --- Estrutura Principal da Navbar --- */
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: #1a0dab; 
+    padding: 10px 30px;
+    border-bottom: 1px solid #3d2ce0;
+}
+
+.nav-center {
+    flex-grow: 1; 
+}
+
+/* --- Bloco da Esquerda (Logo e Título) --- */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    text-decoration: none; 
+}
+
+.nav-logo {
+    width: 50px; 
+    height: 50px;
+}
+
+.nav-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+/* --- Links de Navegação (Centro) --- */
+.nav-center ul {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: #d1d1ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.nav-center a:hover {
+    color: white;
+}
+
+/* --- Bloco da Direita (Ações) --- */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-action-icon {
+    color: white;
+}
+
+.btn-entrar {
+    background-color: #FFC107; 
+    color: #1a1a1a; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-entrar:hover {
+    background-color: #ffd44f;
+}
+
+/* ===== Header ===== */
+
+/* Título acima do quadrado de horários */
+.titulo-horarios {
+  color: #ffd700;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-left: 3%;
+}
+
+/* Seleção de Data */
+.selecao-data {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  border: 1px solid #555;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #090266, #1a0da8);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+  width: 6%;
+  margin-left: 3%;
+}
+
+.selecao-data option {
+  background-color: #0d0f27; 
+  font-weight: 500;
+  color: white;
+}
+
+/* ===== Container do filme ===== */
+
+.img-container img {
+    width: 200px;        /* largura fixa */
+    height: 300px;       /* altura fixa */
+    object-fit: cover;   /* mantém a imagem cortando o excesso proporcionalmente */
+    border-radius: 8px;  /* opcional, arredonda os cantos */
+    display: block;
+    margin: 0 auto;      /* centraliza horizontalmente */
+}
+
+
+.filme-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2%;
+  max-width: 70%;
+  margin: 2% auto;
+  padding: 2%;
+  background-color: #1c1f3b;
+  border-radius: 2%;
+  box-shadow: 0 0.5% 1.4% rgba(0,0,0,0.4);
+}
+
+/* ===== Pôster ===== */
+
+.img-container {
+  text-align: center;     /* centraliza a imagem e o título do filme */
+  margin-bottom: 1rem;    /* espaço entre poster e horários */
+  position: relative;
+}
+
+#img_principal {
+  width: 100%;
+  height: auto;
+  border-radius: 4%;
+}
+
+#txt_img_principal {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1% 3%;
+  border-radius: 8%;
+  background: rgba(0,0,0,0.55);
+}
+
+/* ===== Horários ===== */
+
+.horarios-container {
+  width: 80%;
+}
+
+
+/* ===== Sinopse ===== */
+
+.sinopse {
+  margin-top: 2%;
+  padding: 2%;
+  background-color: #25294a;
+  border-radius: 3%;
+  box-shadow: 0 0.4% 1% rgba(0,0,0,0.35);
+}
+
+.sinopse p {
+  margin: 0;
+  color: #f0f0f0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* ===== Faixa azul dos horários ===== */
+
+#container_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  background-color: #090266;
+  border-radius: 2%;
+  padding: 2%;
+  box-shadow: 0 0.4% 1% rgba(0,0,0,0.3);
+  
+  justify-content: center;  
+  align-items: center;      
+}
+
+/* Caixinhas individuais com Horários */
+.opcoes_genero {
+  border-radius: 15%;
+  background: linear-gradient(135deg, #090266, #1a0da8);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 1% 2%;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+  min-width: 8%;
+  box-shadow: 0 0.2% 0.6% rgba(0,0,0,0.35);
+  text-decoration: none; 
+}
+
+.opcoes_genero:hover {
+  transform: scale(1.08);
+  background: linear-gradient(135deg, #1a0da8, #090266);
+}
+
+/* ===== Footer ===== */
+
+#footer {
+  display: flex;
+  gap: 150px; 
+  padding: 30px 80px;
+  border-top: 2px solid #5c5b61;
+  background-color: #0d1147;;
+  height: 160px;
+}
+
+.footer_coluna {
+  display: flex;
+  flex-direction: column;
+  gap:14px
+}
+
+.footer_titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.footer_txt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content {
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.footer_txt:link,
+.footer_txt:visited,
+.footer_txt:hover,
+.footer_txt:active {
+  color: white;
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 900px) {
+  .filme-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img-container, .horarios-container {
+    width: 90%;
+  }
+  
+  #container_card {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,4 @@
+matricula;nome;email
+123;mari1;mar1imachado20515@gmail.com
+456;pedro1;pedro1@gmail
+789;carlos;carlos@gmail
