@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 a661bd92907da2f07df9e3b5e1e54738c0b3c389 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789055210 -0300	commit (initial): Adiciona projeto
+a661bd92907da2f07df9e3b5e1e54738c0b3c389 a661bd92907da2f07df9e3b5e1e54738c0b3c389 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789055354 -0300	Branch: renamed refs/heads/master to refs/heads/main
+a661bd92907da2f07df9e3b5e1e54738c0b3c389 c101d30aa4283521bedd7cc6e30ede13787f76c0 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789055447 -0300	pull origin main --allow-unrelated-histories: Merge made by the 'ort' strategy.
+c101d30aa4283521bedd7cc6e30ede13787f76c0 1379c122f3999b2fa4c5414eb6646ed9de0597fe Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789055541 -0300	commit: Atualiza projetos locais
+1379c122f3999b2fa4c5414eb6646ed9de0597fe 0cf15776afa2e61c9e3ab319997a1fcf5092f03c Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789078087 -0300	commit: Adicioanndo ap7
+0cf15776afa2e61c9e3ab319997a1fcf5092f03c f3011c0bec0e88e7b433f5f30474ed51579289f1 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789486270 -0300	commit: Cirando esqueleto AP8
+f3011c0bec0e88e7b433f5f30474ed51579289f1 3881169e3aabfb1d1631a84c6eb8cca4d1e797e7 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789486585 -0300	commit: Corrigindo arq bat
+3881169e3aabfb1d1631a84c6eb8cca4d1e797e7 933c78e67bd320f49f1a4bef9fab16341298d782 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789487940 -0300	commit: adicionando header basica
+933c78e67bd320f49f1a4bef9fab16341298d782 607d4ad0a8c604b54048ebaead1c2b8e3207ad8c Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789508973 -0300	commit: Adicionando funcionalidades de API
+607d4ad0a8c604b54048ebaead1c2b8e3207ad8c c91c9ba7977aecdeb32c9674a6441ed2e92617dc Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789585907 -0300	commit: Inicio da Implementacao da fucnionalidade de pesquisar cidades
+c91c9ba7977aecdeb32c9674a6441ed2e92617dc 256b43e41cf6d701aa7e9bb36c3d179d34e2eb66 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789677051 -0300	commit: Adicionando procura de cidade
+256b43e41cf6d701aa7e9bb36c3d179d34e2eb66 bbea0e578bba298fa0fc317fb73acc10acf80ad3 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789677700 -0300	commit (merge): Integra atualizacoes do GitHub
+bbea0e578bba298fa0fc317fb73acc10acf80ad3 d6b6f4ffeb49b9e82cd717a5d89ecfa834185947 Mariana Machado <mariana.25104708360006@faeterj-rio.edu.br> 1789749183 -0300	commit: Adicionando pags de semana e sobre
